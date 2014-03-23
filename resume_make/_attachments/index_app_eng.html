@@ -1,0 +1,614 @@
+<!DOCTYPE html >
+<!---<html manifest="cache.manifest">--->
+<html>
+
+<head>
+	<title>edit0000</title>
+	<meta charset="utf-8" />
+
+	<script src="jquery183min.js"></script>
+	<meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<script src="tabs_click-to-activate.js"></script>
+	<script type="text/javascript" src='jquery.js'></script>
+	<script src="myappoffline.js"></script>
+	<link rel="stylesheet" type="text/css" href="myapp.css">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	
+<!-- <link rel="stylesheet" type="text/css" href="css/style_view.css" />-->
+   <script src="jquery.featureCarousel.js" type="text/javascript" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>
+	<script type="text/javascript" src="js/popup.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			PopUp($('#obj'), $('#trigg'));
+			$('.letsup').hide();
+			$('.lets').click(function(){
+				$('.header_1').hide();
+				$('.letsup').show();
+						})
+			$('.letsup').click(function(){
+			$(this).hide();
+				$('.header_1').show();
+						})
+		});
+	</script>
+		<style>
+	
+
+	</style>
+</head>
+	
+	
+</head>
+
+<body>
+
+
+<!--- Шапка   --->
+<div class="header_up"> </div>
+<div class="smartphone"> Розробником було прийнято рішення про недоцільність використання застосунку по створеню резюме в такому режимі<img class='belka' src='2.gif'/> </div>
+
+<div class='deer hidden'><span class='cancel'></span>
+<img class='pict_v' src='deer.gif'/>mimimimimi</div>
+
+
+<div class="header_1">
+<div class="top">
+		<div class="login pane hidden">
+			
+				Логін:
+				<input type="text" size="10" class="login-name" placeholder="Логін" />
+			Пароль:
+				<input type="password" size="10" class="login-password" placeholder="Пароль" />
+				<input type="button" class="login-button" value="Увійти"/>
+			
+		</div>
+		<div class="register pane hidden">
+		
+				Логін:
+				<input  size="15" type="text" class="register-name" />
+				Пароль: 
+				<input size="15" type="password" class="register-password" />
+				<input type="button" class="register-button" value="Зареєструватися"/>
+		
+		</div>
+		<div class="welcome pane hidden">
+			Раді вітати, <span class="user-name"></span> :)
+			<input type="button" class="logout-button" value="Вийти"/>
+		</div>
+	</div>
+
+ <div class="karusel">
+  <div class='karus_nav'>
+    <a id="but_prev" href="#">Попередня</a> | <a id="but_pause" href="#">Пауза</a> | <a id="but_start" href="#">Запустити</a> | <a id="but_next" href="#">Наступна</a> | <span class='lets'> Приховати і приступити до роботи</span>
+  </div>
+    <div class="carousel-container">
+ 
+      <div id="carousel">
+	   
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample1.jpg"></a>
+             <a href='http://obrazets-resume.ru/resume_na_anglijskom/'> <div class="carousel-caption">
+            <p>
+         Як створити резюме англійською мовою?
+            </p>
+          </div></a>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample2.jpg"></a>
+          <a href='http://www.resume-now.com/'>
+		 <div class="carousel-caption">
+			<p>
+              Скористатися професійними послугами створення резюме.
+            </p>
+          </div></a>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample3.jpg"></a>
+		 <a href='http://hh.ua/article/14509?utm_content=soisk_12_12_2013&utm_medium=email&utm_source=email&utm_campaign=misc'>
+		 <div class="carousel-caption">
+            <p>
+             Що дратує HR-рів у резюме.
+            </p>
+          </div>
+		  </a>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample4.jpg"></a>
+		   <a href='http://tellme.org.ua/24-kreativnyx-rezyume'>
+		  <div class="carousel-caption">
+            <p>
+              24 креативних резюме.
+            </p>
+          </div>
+		  </a>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample5.jpg"></a>
+		<a href='http://www.hopesandfears.com/hopesandfears/ideas/cloud/120479-sboku-bantik-5-servisov-dlya-krasivyh-rezyume'>         
+		 <div class="carousel-caption">
+            <p>
+              Розкажи мені про себе: 5 сервісів для красивих резюме.
+            </p>
+          </div>
+		  </a>
+        </div>
+      </div>
+    
+      <div id="carousel-left"><img src="images/arrow-left.png" /></div>
+      <div id="carousel-right"><img src="images/arrow-right.png" /></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- <div class="iheader"> </div>
+<div class="iheader1"> </div> -->
+</div>
+<div class="help"> Щоб розпочати роботу з майстром - увійдіть або зареєструйтесь </div>
+
+
+<!--- Врапер - тело без шапки и футера  --->
+ 
+<div class='wrapper_c'>
+	<h3 class='letsup'><a href="javascript:void(0);">Перепочити і переглянути мотиваційну карусель</a></h3>
+
+<!--- класс секшн - тело без шапки и футера (такой же как врапер!? --->
+<div class="section">
+
+<!--- Закладки   --->
+	<ul class="tabs">
+	
+		<li class="current">Конструктор</li>
+		<li class="done">Віювер</li>
+		
+	</ul>
+<!--- Страница закладок  --->
+	<div class="box visible">
+		
+		
+		<div class="constructor"> 
+
+	<div class="choice">
+	<h3><a id="trigg" href="javascript:void(0);">Показати підказку</a></h3>
+	<h2> Натискаючи на кнопки цього меню, додайте у розділ "Конструктор" блоки для редагування даних резюме </h2>
+		<div id= "Photo" class="photo decor"> Photo </div>
+		<div id="myname" class="item decor"> myname</div>
+		<div id= "Old" class="item decor"> Old </div>
+		<div id= "Adress" class="item decor"> Adress </div>
+		<div id= "Telefon" class="item decor"> Telefon </div>
+		
+		<div id= "Aim" class="item decor"> Aim</div>		
+		<div id= "Profile" class="item decor"> Profile </div>
+		<div id= "Skills" class="item decor"> Skills </div>
+		<div id= "Education" class="item decor"> Education </div>
+		<div id= "Expierence" class="item decor"> Expierence </div>
+		<div id= "other" class="item decor"> other </div>		
+		<div class="wrapperr">
+		
+			
+			<!-- Из obj будет извлечен HTML и помещен в POP-UP -->
+				<div id="obj"><div class="sample"><p><h1> <strong>Вітання!</strong><br>Даний застосунок забезпечить Вас можливістю створити унікальне та неповторне особисте резюме. </h1>
+	<h1>  </h1>
+	<h1>Для створення Вашого резюме: </h1>
+	 - <strong>Оберіть блоки</strong> в правому вертикальному меню та клацніть по потрібним для додавання їх у Ваш документ. 
+	<br> - <strong>Відредагуйте</strong> додані блоки, замінивши автотекст в текстових областях Вашими персональними даними.
+	<br> - Для відображення у видимій області всього текста, що редагується, змінюйте величину текстової області, розтягуючи блок за маркер в правому нижньому куті.
+	<br> - Підтвердіть збереження введених даних, клікнувши по кнопці <strong>"Зберегти"</strong>.
+	<br> - Додавайте або зберігайте дані в блоках, використовуючи відповідно кнопки "Видалити" та "Зберегти".
+	<br> - Щоб прикріпити фотографію до резюме - додайте блок "Photo" у конструктор. Скорисьавшись кнопкою "Обрати файл", оберіть файл з Вашого диску. Натисність "Завантажити".
+	<br> - Завершивши редагування данних перейдіть на закладку "Віювер", щоб обрати зовнішній вигляд Вашого резюме.
+	<br> - <strong>Оберіть зразок стилю</strong>, що найбільше Вам імпонує та натисніть "Зберегти моє резюме".
+	<br><h1> - <strong>Заходьте ще! </strong></h1></p></div></div>
+			<!-- X Из obj будет извлечен HTML и помещен в POP-UP -->
+	
+		
+	</div>
+
+	</div>
+	
+	<div class='edit_forall'> 
+
+	<h1> Функціональність застосунку доступна лише зареєстрованим користувачам. <br>Зареєструйтесь або увійдіть, будь-ласка
+	</h1>
+	</div>
+	<div class='edit'> 
+
+	<div id= "Photo_edit" >  </div>
+		<div id="myname_edit" > </div>
+		<div id= "Old_edit" >  </div>
+		<div id= "Adress_edit">  </div>
+		<div id= "Telefon_edit" >  </div>
+		
+		<div id= "Aim_edit" ></div>		
+		<div id= "Profile_edit" >  </div>
+		<div id= "Skills_edit" >  </div>
+		<div id= "Education_edit" >  </div>
+		<div id= "Expierence_edit" >  </div>
+		<div id= "other_edit" >  </div>	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	</div>
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
+	</div>
+
+	<div class="box">
+			<div class="section vertical">
+
+	<ul class="tabs">
+		<li id="first_sample" class="current" ><span class="attr">Стиль 1</span></li>
+		<li id="second_sample" ><span class="attr1">Стиль 2</span></li>
+		<li id="third_sample" ><span class="attr2">Стиль 3</span></li>
+		<li id="fourth_sample" ><span class="attr3">Стиль 4</span></li>
+	</ul>
+
+	<div class="box visible viewtarget" style='font-family:Arial;'>
+		
+		
+		<div class="myname_v"> Homer Jay Simpson</div>
+		<div  class="Old_v">Old </div>
+		<div  class="Adress_v">chunkylover53@aol.com </div>
+		<div  class="Telefon_v"> din-din </div>
+		<div  class="yo_vo"> <img class='pict_v' /> </div>
+		<div class='a'><div class='attr'> Aim: </div><div  class="Aim_v"> Safety Inspector</div>		</div>
+		<div class='b'><div class='attr'> Profile:  </div><div  class="Profile_v"> To be happy. </div></div>
+		<div class='c'><div class='attr'> Skills: </div><div  class="Skills_v">Eating Sleeping Bowling  </div></div>
+		<div class='d'><div class='attr'> Education: </div><div  class="Education_v"> School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993 </div></div>
+		<div class='e'><div class='attr'> E[pierence: </div> <div  class="Expierence_v">Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present</div></div>
+		<div class='j'><div class='attr'> Editional information: </div><div  class="other_v"> Ran over dean with car, kidnapped Sir Oinks-a-lot. </div></div>	
+<!--
+
+<div class='view'><h1>Homer Jay Simpson</h1></div>
+<div class='view'>Safety Inspector</div>
+
+<div class='view'>chunkylover53@aol.com</div>
+<div class='view'>Objective	</div>
+
+<br>chunkylover53@aol.com
+<br><br>Objective
+<br>To be happy.
+<br>Executive Summary
+<br>I love beer, doughnuts, and all things fried.
+<br>Skills / Languages
+<br>Eating Sleeping Bowling
+<br>Frameworks / Libraries / Data Formats
+<br>D'oh! What's a framework?
+<br><br>Projects
+<br>Name: Boxcar Racer
+<br>Technologies: wood, and plastic
+<br>Description: Helped Bart build a boxcar racer, but Martin's was better.
+<br><br>Experience
+<br>Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present
+<br>Responsibilities: Build high quality web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.
+Achievements: Introduced unit testing, continuous integration, source control, and development best practices to the team. Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects.
+<br><br>Speaking Engagements
+<br>Title: Debate for Garbage Commission
+<br>location: Springfield Townhall
+<br>Link: open
+<br><br>Education
+<br>School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993
+<br>Achievements: Ran over dean with car, kidnapped Sir Oinks-a-lot.-->
+	</div>
+
+	<div class="box viewtarget" style='font-family:Garamaund; font-style:italic;'>
+	
+			<div class="myname_v"> Homer Jay Simpson</div>
+		<div  class="Old_v">Old </div>
+		<div  class="Adress_v">chunkylover53@aol.com </div>
+		<div  class="Telefon_v"> din-din </div>
+		<div  class="yo_vo"> <img class='pict_v' /> </div>
+		<div class='a'><div class='attr1'> Aim: </div><div  class="Aim_v"> Safety Inspector</div>		</div>
+		<div class='b'><div class='attr1'> Profile:  </div><div  class="Profile_v"> To be happy. </div></div>
+		<div class='c'><div class='attr1'> Skills: </div><div  class="Skills_v">Eating Sleeping Bowling  </div></div>
+		<div class='d'><div class='attr1'> Education: </div><div  class="Education_v"> School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993 </div></div>
+		<div class='e'><div class='attr1'> Expierence: </div> <div  class="Expierence_v">Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present</div></div>
+		<div class='j'><div class='attr1'> Editional information: </div><div  class="other_v"> Ran over dean with car, kidnapped Sir Oinks-a-lot. </div></div>	
+<!--
+
+<div class='view'><h1>Homer Jay Simpson</h1></div>
+<div class='view'>Safety Inspector</div>
+
+<div class='view'>chunkylover53@aol.com</div>
+<div class='view'>Objective	</div>
+
+<br>chunkylover53@aol.com
+<br><br>Objective
+<br>To be happy.
+<br>Executive Summary
+<br>I love beer, doughnuts, and all things fried.
+<br>Skills / Languages
+<br>Eating Sleeping Bowling
+<br>Frameworks / Libraries / Data Formats
+<br>D'oh! What's a framework?
+<br><br>Projects
+<br>Name: Boxcar Racer
+<br>Technologies: wood, and plastic
+<br>Description: Helped Bart build a boxcar racer, but Martin's was better.
+<br><br>Experience
+<br>Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present
+<br>Responsibilities: Build high quality web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.
+Achievements: Introduced unit testing, continuous integration, source control, and development best practices to the team. Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects.
+<br><br>Speaking Engagements
+<br>Title: Debate for Garbage Commission
+<br>location: Springfield Townhall
+<br>Link: open
+<br><br>Education
+<br>School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993
+<br>Achievements: Ran over dean with car, kidnapped Sir Oinks-a-lot.-->
+	</div>
+
+	<div class="box viewtarget" style='font-family:"Times New Roman";'>
+	<div class="myname_v"> Homer Jay Simpson</div>
+		<div  class="Old_v">Old </div>
+		<div  class="Adress_v">chunkylover53@aol.com </div>
+		<div  class="Telefon_v"> din-din </div>
+		<div  class="yo_vo"> <img class='pict_v' /> </div>
+		<div class='a'><div class='attr2'> Aim: </div><div  class="Aim_v"> Safety Inspector</div>		</div>
+		<div class='b'><div class='attr2'> Profile:  </div><div  class="Profile_v"> To be happy. </div></div>
+		<div class='c'><div class='attr2'> Skills: </div><div  class="Skills_v">Eating Sleeping Bowling  </div></div>
+		<div class='d'><div class='attr2'> Education: </div><div  class="Education_v"> School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993 </div></div>
+		<div class='e'><div class='attr2'> Expierence: </div> <div  class="Expierence_v">Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present</div></div>
+		<div class='j'><div class='attr2'> Editional information: </div><div  class="other_v"> Ran over dean with car, kidnapped Sir Oinks-a-lot. </div></div>	
+<!--
+
+<div class='view'><h1>Homer Jay Simpson</h1></div>
+<div class='view'>Safety Inspector</div>
+
+<div class='view'>chunkylover53@aol.com</div>
+<div class='view'>Objective	</div>
+
+<br>chunkylover53@aol.com
+<br><br>Objective
+<br>To be happy.
+<br>Executive Summary
+<br>I love beer, doughnuts, and all things fried.
+<br>Skills / Languages
+<br>Eating Sleeping Bowling
+<br>Frameworks / Libraries / Data Formats
+<br>D'oh! What's a framework?
+<br><br>Projects
+<br>Name: Boxcar Racer
+<br>Technologies: wood, and plastic
+<br>Description: Helped Bart build a boxcar racer, but Martin's was better.
+<br><br>Experience
+<br>Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present
+<br>Responsibilities: Build high quality web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.
+Achievements: Introduced unit testing, continuous integration, source control, and development best practices to the team. Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects.
+<br><br>Speaking Engagements
+<br>Title: Debate for Garbage Commission
+<br>location: Springfield Townhall
+<br>Link: open
+<br><br>Education
+<br>School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993
+<br>Achievements: Ran over dean with car, kidnapped Sir Oinks-a-lot.-->
+	</div>
+
+	<div class="box viewtarget" style='font-family:Georgia;'>
+	
+			<div class="myname_v"> Homer Jay Simpson</div>
+		<div  class="Old_v">Old </div>
+		<div  class="Adress_v">chunkylover53@aol.com </div>
+		<div  class="Telefon_v"> din-din </div>
+		<div  class="yo_vo"> <img class='pict_v' /> </div>
+		<div class='a'><div class='attr3'> Aim: </div><div  class="Aim_v"> Safety Inspector</div>		</div>
+		<div class='b'><div class='attr3'> Profile:  </div><div  class="Profile_v"> To be happy. </div></div>
+		<div class='c'><div class='attr3'> Skills: </div><div  class="Skills_v">Eating Sleeping Bowling  </div></div>
+		<div class='d'><div class='attr3'> Education: </div><div  class="Education_v"> School: Springfield University
+<br>Program: Nuclear Physics
+<br>Dates Attended: 1993 - 1993 </div></div>
+		<div class='e'><div class='attr3'> Expierence: </div> <div  class="Expierence_v">Company Springfield Nuclear
+<br>Title: Safety Inspector
+<br>Tenure: 1989 - Present</div></div>
+		<div class='j'><div class='attr3'> Editional information: </div><div  class="other_v"> Ran over dean with car, kidnapped Sir Oinks-a-lot. </div></div>	
+	<!----
+	  <div class="box_v">
+		Здравствуйте! Меня зовут
+		<div class="box_name">
+		<input class="name" type="text" placeholder="Ваше ФИО">
+		</div>
+		<div class="box_work">
+		Я направляю Вам свое резюме на должность <input class="input_work" type="text" placeholder="должность">
+		</div>		
+		</div>
+		<div class="box_content">
+		<div class="goal">
+		<div class="goal_main">
+		Цель
+		</div>
+		<div class="goal_info">
+		<input class="goal_i" type="text" placeholder="Опишите цель своей карьеры или желаемую должность">
+		</div>
+		</div>
+		<div class="work_i">
+		<div class="work_i_1">
+		<input class="input_work_i" type="text" placeholder="должность">
+		</div>
+		</div>
+		<div class="expierence_main">
+		<div class="expierence_1">
+		Опыт работы
+		</div>
+		<div class="expierence">
+		<input class="expierence_imp" type="text" placeholder="Время работы">
+		<input class="expierence_imp" type="text" placeholder="Название организации">
+		<input class="expierence_imp" type="text" placeholder="Город">
+		<input class="expierence_imp_in" type="text" placeholder="Должностные обязанности/достижения">
+		</div>
+		<div class="expierence">
+		<input class="expierence_imp" type="text" placeholder="Время работы">
+		<input class="expierence_imp" type="text" placeholder="Название организации">
+		<input class="expierence_imp" type="text" placeholder="Город">
+		<input class="expierence_imp_in" type="text" placeholder="Должностные обязанности/достижения">
+		</div>
+		<div class="expierence">
+		<input class="expierence_imp" type="text" placeholder="Время работы">
+		<input class="expierence_imp" type="text" placeholder="Название организации">
+		<input class="expierence_imp" type="text" placeholder="Город">
+		<input class="expierence_imp_in" type="text" placeholder="Должностные обязанности/достижения">
+		</div>
+		<div class="expierence">
+		<input class="expierence_imp" type="text" placeholder="Время работы">
+		<input class="expierence_imp" type="text" placeholder="Название организации">
+		<input class="expierence_imp" type="text" placeholder="Город">
+		<input class="expierence_imp_in" type="text" placeholder="Должностные обязанности/достижения">
+		</div>
+		</div>
+		<div class="education_main">
+		<div class="education_i">
+		Образование		
+		</div>
+		<div class="education">
+		<input class="education_imp" type="text" placeholder="Название учебного заведения">
+		<input class="education_imp" type="text" placeholder="Город"></br>
+		<input class="education_imp_1" type="text" placeholder="Время обучения">
+		<input class="education_imp_2" type="text" placeholder="Степень">
+		<input class="education_imp_2" type="text" placeholder="Особые награды/достижения или второе образование">
+		</div>
+		</div>
+		<div class="other_main">
+		<div class="other_1">
+		Увлечения
+		</div>
+		<div class="other">
+		<input class="other_imp" type="text" placeholder="дополнительная информация, хобби увлечения">
+		</div>
+		</div>
+		<div class="profile_main">
+		<div class="profile_1">
+		Рекомендации
+		</div>
+		<div class="profile">
+		<input class="profile_imp" type="text" placeholder="Если есть возможность предоставления рекомендаций, здесь можно написать.">
+		</div>
+		</div>
+        </div>
+        
+		<div class="box_last">
+		Мои контактные данные
+		<input class="input_phone" type="text" placeholder="телефон">
+		<input class="input_email" type="text" placeholder="e-mail">
+		<input class="input_adress" type="text" placeholder="адрес">
+		<input class="input_icq" type="text" placeholder="ICQ">
+		</div>		
+		</div>
+	
+	
+	---->
+	
+	
+		
+	</div>
+
+</div><div class='send'> <span class="mail"><img class='jjj' src='email_send.png'> Відправити на e-mail</span> <span class='print'> <img class='jjj' src='printer.png'> Роздрукувати </span>  </div>
+	</div>
+
+	
+
+</div><!-- .section -->
+
+</div>
+<div class="hidden print_form">
+<span class='cancel'></span>
+<h1>На жаль, наразі реалізація cерверними методами конвертування даних з html або json у друкосприятливі формати, такі як pdf, doc або jpeg, не доступна. </h1>
+
+Щоб роздрукувати Ваше резюме, Ви можете скористатися віртуальним pdf-принтером, встановивши програму за посиланням <a href='http://www.bullzip.com/products/pdf/download.php'> bullzip PDF
+</a>,  виділивши поля, які бажано вивести на друк і обравши в налаштуваннях друку "Пункт призначення"-"BullZip PDF принтер", знявши перемикачі з "нижніх і верхніх колонтитулів".
+
+</div>
+<div class="hidden mail_form"><span class='cancel'></span>
+<img class='jjj' src='email_send.png'>
+<input class="mail_input" type="text" placeholder="Введіть e-mail">
+<a class='bs'><input class="buttonsend" type="button" value="Відправити"></a>
+
+</div>
+<div class='footer'> <img class="img_log_bionic" src="bionic.jpg" /> Copyright &copy; 2013, zernovagg   </div>
+<div class='hidden shade'></div>
+</body>
+</html>
